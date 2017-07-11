@@ -1,0 +1,43 @@
+body{
+	margin:0px;
+}
+
+.container{
+	width:100%;
+	height:auto;
+	
+}
+
+.row{
+	width:100%;
+	height:auto;
+}
+
+.row:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.block{
+	width:80%;
+	margin:10px auto;
+	box-sizing:border-box;
+	border:1px solid #666;
+	padding:15px;
+	height:100px;
+}
+
+@media(min-width:768px){
+	.container{
+		width:750px;
+		margin:0px auto;
+	}
+	
+	.block{
+		
+	}
+}
+
+
+
